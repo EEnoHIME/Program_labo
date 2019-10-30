@@ -1,1 +1,0 @@
-g++ output_weight.cpp -lm -o CSV

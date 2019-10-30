@@ -1,1 +1,0 @@
-g++ read_pgm.cpp picojson.cpp mla.cpp mla_ary.cpp voronoi.cpp get_value_for_eq.cpp equation.cpp output_weight.cpp main.cpp -lm -o CSV -mcmodel=large

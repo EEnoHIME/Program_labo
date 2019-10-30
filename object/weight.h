@@ -1,1 +1,0 @@
-extern int output_csv(int w, int h, char *output_filename);

@@ -1,1 +1,0 @@
-g++ equation.cpp -lm -o SOLVE
