@@ -7,13 +7,13 @@
 #ifndef EQUATION
 #define EQUATION
 typedef struct value_for_eq{
-    double 4_sq[4];
-    double 2_sq[4];
-    double const[4];
+    double sqq[4];
+    double sqd[4];
+    double c[4];
 };
 #endif			
 
 extern double F(double x);
 extern double  G(double x);
-extern int calc_coeff(img_data **img_d,value_for_eq coeff,int m,int n);
+extern int calc_coeff(int m,int n);
 extern double solve_equation();

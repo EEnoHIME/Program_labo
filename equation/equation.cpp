@@ -19,7 +19,7 @@ double F(double x){
     double y;
 	y = (coeff.sqq[1]+coeff.sqq[2]-coeff.sqq[3]-coeff.sqq[0])*x*x*x*x+
         (coeff.sqd[1]+coeff.sqd[2]-coeff.sqd[3]-coeff.sqd[0])*x*x+
-        (coeff.c[1]+coeff.c[2]-coeff.c[3]-coeff.c[0]);
+        (coeff.c[0]+coeff.c[1]+coeff.c[2]+coeff.c[3]);
     return y;
 }
 // f(x) の x における傾き ( f(x) を１回微分 )
@@ -55,7 +55,7 @@ double Calc::calcNonlinearEquation()
 {
   // x 初期値設定
   
-  x = 4.0;
+  x = -2.0;
 
   // 打ち切り回数 or 打ち切り誤差になるまで LOOP
   for (k = 1; k <= limit; k++) {

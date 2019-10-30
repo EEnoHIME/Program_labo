@@ -39,7 +39,9 @@ void voronoi(){
             data[j][i].m = id.m;
             data[j][i].n = id.n;
 			data[j][i].d = id.d;
-            cout << "(" << i << "," << j <<")" << " belongs to " << "(" << data[j][i].m << "," << data[j][i].n <<")" << endl;
+            //cout << "(" << i << "," << j <<")" << " belongs to " << "(" << data[j][i].m << "," << data[j][i].n <<")" << endl;
         }
+		cout << "Line_" << j  << " is done " <<  endl;
     }
+	cout << "Voronoi is done " << endl;
 }
