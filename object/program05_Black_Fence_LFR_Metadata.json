@@ -1,0 +1,243 @@
+{
+	"image": {
+		"width": 7728,
+		"orientation": 1,
+		"modulationExposureBias": 0.2934664786,
+		"pixelPacking": {
+			"bitsPerPixel": 10,
+			"endianness": "little"
+		},
+		"limitExposureBias": 0,
+		"height": 5368,
+		"pixelFormat": {
+			"white": {
+				"gr": 1023,
+				"r": 1023,
+				"b": 1023,
+				"gb": 1023
+			},
+			"black": {
+				"gr": 64,
+				"r": 64,
+				"b": 64,
+				"gb": 64
+			},
+			"rightShift": 0
+		},
+		"iso": 80,
+		"originOnSensor": {
+			"x": 0,
+			"y": 0
+		},
+		"mosaic": {
+			"tile": "r,gr:gb,b",
+			"upperLeftPixel": "gr"
+		},
+		"color": {
+			"whiteBalanceGain": {
+				"gr": 1,
+				"r": 1.339808226,
+				"b": 1.276506662,
+				"gb": 1
+			},
+			"ccm": [2.313243866,-1.130230427,-0.183013469,-0.4583319426,1.700108051,-0.241776228,-0.257981956,-0.837313354,2.095295191]
+		}
+	},
+	"generator": "lightning",
+	"schema": "http://schema.lytro.com/lfp/lytro_illum_public/1.3.5/lytro_illum_public_schema.json",
+	"camera": {
+		"make": "Lytro, Inc.",
+		"model": "ILLUM",
+		"firmware": "1.1.1 (23)"
+	},
+	"devices": {
+		"clock": {
+			"zuluTime": "2015-04-06T16:04:28.183Z",
+			"isTimeValid": 1
+		},
+		"sensor": {
+			"pixelPitch": 1.4e-06,
+			"normalizedResponses": {
+				"b": 0.7344976664,
+				"gb": 1,
+				"cct": 5100,
+				"gr": 1,
+				"r": 0.7761663198
+			},
+			"perCcm": [
+				{
+					"ccm": [2.006272078,-0.5362802148,-0.4699919224,-0.6019303799,1.836044431,-0.2341140062,-0.8173090816,-1.643512845,3.460821867],
+					"cct": 2850
+				},
+				{
+					"ccm": [2.479326487,-1.274798512,-0.2045278996,-0.5189455152,1.611840725,-0.09289517254,-0.3602483571,-1.011559963,2.37180829],
+					"cct": 4150
+				},
+				{
+					"ccm": [2.190219641,-1.023142815,-0.167076841,-0.4134329855,1.765491486,-0.3520585001,-0.1822291017,-0.7082417607,1.890470862],
+					"cct": 6500
+				}
+			],
+			"pixelWidth": 7728,
+			"bitsPerPixel": 10,
+			"mosaic": {
+				"tile": "r,gr:gb,b",
+				"upperLeftPixel": "gr"
+			},
+			"pixelHeight": 5368,
+			"baseIso": 80,
+			"analogGain": {
+				"gr": 1,
+				"r": 1,
+				"b": 1,
+				"gb": 1
+			}
+		},
+		"shutter": {
+			"mechanism": "focalPlaneCurtain",
+			"frameExposureDuration": 0.0008665865171,
+			"pixelExposureDuration": 0.0008665865171,
+			"maxSyncSpeed": 0.004
+		},
+		"mla": {
+			"config": "com.lytro.mla.3",
+			"rotation": -0.0005535034579,
+			"tiling": "hexUniformRowMajor",
+			"scaleFactor": {
+				"x": 1,
+				"y": 1.00054431
+			},
+			"lensPitch": 2e-05,
+			"sensorOffset": {
+				"x": 1.096498489e-05,
+				"y": -7.779662609e-07,
+				"z": 3.7e-05
+			}
+		},
+		"lens": {
+			"fNumber": 2.31190582,
+			"exitPupilOffset": {
+				"z": 0.1034812546
+			},
+			"zoomStep": -663,
+			"focusStep": 195,
+			"opticalCenterOffset": {
+				"x": 1.484619133e-05,
+				"y": 3.083264164e-05
+			},
+			"focalLength": 0.04317376623,
+			"infinityLambda": 2.143508678
+		},
+		"battery": {
+			"make": "Lytro",
+			"chargeLevel": 99,
+			"model": "B01-3760",
+			"cycleCount": 3
+		},
+		"accelerometer": {
+			"samples": {
+				"x": -0.6067047119,
+				"y": 8.906692505,
+				"time": 0,
+				"z": -0.1862030029
+			}
+		}
+	},
+	"settings": {
+		"exposure": {
+			"bracketCount": 3,
+			"compensation": 0.6999999285,
+			"mode": "program",
+			"meter": {
+				"mode": "evaluative",
+				"roiMode": "af",
+				"roi": {
+					"top": 0,
+					"left": 0,
+					"bottom": 1,
+					"right": 1
+				}
+			},
+			"bracketEnable": 0,
+			"bracketStep": 1,
+			"bracketOffset": 0,
+			"aeLock": 0
+		},
+		"whiteBalance": {
+			"tint": -30,
+			"mode": "preset",
+			"cct": 5500,
+			"preset": "daylight"
+		},
+		"shutter": {
+			"selfTimerEnable": 0,
+			"selfTimerDuration": 2,
+			"driveMode": "single"
+		},
+		"focus": {
+			"afActuationMode": "single",
+			"mode": "auto",
+			"ringLock": 0,
+			"bracketCount": 3,
+			"bracketEnable": 0,
+			"afDriveMode": "single",
+			"bracketStep": 3,
+			"bracketOffset": 0,
+			"roi": {
+				"top": 0,
+				"left": 0,
+				"bottom": 1,
+				"right": 1
+			},
+			"captureLambda": -4
+		},
+		"zoom": {
+			"ringLock": 0
+		},
+		"flash": {
+			"mode": "unknown",
+			"exposureCompensation": 0,
+			"zoomMode": "auto",
+			"curtainTriggerSync": "front",
+			"afAssistMode": "auto"
+		},
+		"depth": {
+			"assist": "on",
+			"histogram": "on",
+			"overlay": "on"
+		}
+	},
+	"algorithms": {
+		"awb": {
+			"roi": "fullFrame",
+			"computed": {
+				"cct": 5500,
+				"gain": {
+					"gr": 1,
+					"r": 1.339808226,
+					"b": 1.276506662,
+					"gb": 1
+				}
+			}
+		},
+		"ae": {
+			"computed": {
+				"ev": 1
+			},
+			"roi": "followAf",
+			"mode": "live"
+		},
+		"af": {
+			"computed": {
+				"focusStep": 195
+			},
+			"roi": "focusRoi"
+		}
+	},
+	"picture": {
+		"totalFrames": 1,
+		"frameIndex": 0,
+		"dcfDirectory": "100PHOTO",
+		"dcfFile": "IMG_0377"
+	}
+}

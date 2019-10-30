@@ -1,0 +1,1 @@
+g++ picojson.cpp metadata_main.cpp -lm -o GET_METADATA

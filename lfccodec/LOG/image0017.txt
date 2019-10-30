@@ -1,0 +1,198 @@
+-o -f
+compute-0-21
+miyaza
+2018年 12月 25日 火曜日 18:45:41 JST
+/rda1/users/miyaza/lfc_pgm/output0017.pgm -> mrpfile/image0017.mrp (3280x3280)
+init_encoder
+make_label
+vgen,vgenc = 7,1
+geny,genx = 383,332
+geny,genx = 128,111
+geny,genx = 128,111
+geny,genx = 128,111
+geny,genx = 128,111
+geny,genx = 128,111
+geny,genx = 128,111
+BAYER_cfa
+color(y,x) mean ... 
+1->B, 2->R, 0->G1, 3->G2
+1,0,
+3,2,
+max_prd_order_all = 26
+coef_precision = 6
+num_pmodel = 16
+pm_accuracy = 3
+MAX_LOOP_NUM = 2
+
+-----------------------------------------------------------------
+	|		area
+	---------------------------------------------------------
+	|  0	|  1	|  2	|  3	|  4	|  5	|  6	|
+-----------------------------------------------------------------
+class	| 10	| 10	| 10	| 10	| 10	| 10	| 10	|
+-----------------------------------------------------------------
+base_K	| 25	| 25	| 25	| 25	| 25	| 25	| 25	|
+-----------------------------------------------------------------
+max_K	| 26	| 26	| 26	| 26	| 26	| 26	| 26	|
+-----------------------------------------------------------------
+init_class->ok
+init_ref_offset5_2->roff_up->roff_left2->roff_right2->ok
+[ 1st loop ]
+[ 0] cost = 113783893 -> 43031744 -> 42477832 *
+[ 1] cost = 42008866 -> 41869836 -> 41507539 *
+[ 2nd loop ]
+( 0) cost = 41384819[29888] -> 41296353 [21073] -> 41245050 [623616] (674577) -> 41919627 *
+( 1) cost = 41919627[29888] -> 41240694 [17114] -> 41267343 [504080] (551082) -> 41818425 *
+remove_emptyclass.
+num of class is not changed.
+
+******** Start encoding ********
+write_header...ok
+encode_class...9,13,ok
+encode_predictor...ok
+encode_threshold...ok
+encode_image...ok
+header info.	:       212 bits (0.00 %)
+class info.	:    509144 bits (1.22 %)
+predictors	:     30128 bits (0.07 %)
+thresholds	:     17184 bits (0.04 %)
+pred. errors	:  41277144 bits (98.67 %)
+------------------------------
+total		:  41833812 bits
+coding rate	:   3.88848 b/p
+cpu time: 144.82 sec.
+coding_rate_par_area(without header info.)
+--------------------area = 0--------------------
+pixel	:	   6547256 pixel (60.86 %)
+class info.	:	    271400 bits (1.03 %)
+predictor	:	      4560 bits (0.02 %)
+thresholds	:	      2800 bits (0.01 %)
+G1		 pred. errors 	:   6518096 bits
+G2		 pred. errors 	:   6539168 bits
+R		 pred. errors 	:   6656312 bits
+B		 pred. errors 	:   6249984 bits
+total		 pred. errors 	:  25963560 bits (98.94 %)
+coding rate	   4.00814 bits/pel
+--------------------area = 1--------------------
+pixel	:	    703876 pixel (6.54 %)
+class info.	:	     38032 bits (1.46 %)
+predictor	:	      4280 bits (0.16 %)
+thresholds	:	      2328 bits (0.09 %)
+G1		 pred. errors 	:    635120 bits
+G2		 pred. errors 	:    625648 bits
+R		 pred. errors 	:    674072 bits
+B		 pred. errors 	:    625008 bits
+total		 pred. errors 	:   2559848 bits (98.29 %)
+coding rate	   3.70021 bits/pel
+--------------------area = 2--------------------
+pixel	:	    700850 pixel (6.51 %)
+class info.	:	     38816 bits (1.47 %)
+predictor	:	      4352 bits (0.16 %)
+thresholds	:	      2448 bits (0.09 %)
+G1		 pred. errors 	:    644880 bits
+G2		 pred. errors 	:    634912 bits
+R		 pred. errors 	:    684952 bits
+B		 pred. errors 	:    634320 bits
+total		 pred. errors 	:   2599064 bits (98.28 %)
+coding rate	   3.77353 bits/pel
+--------------------area = 3--------------------
+pixel	:	    701042 pixel (6.52 %)
+class info.	:	     42312 bits (1.63 %)
+predictor	:	      4176 bits (0.16 %)
+thresholds	:	      2392 bits (0.09 %)
+G1		 pred. errors 	:    626848 bits
+G2		 pred. errors 	:    622808 bits
+R		 pred. errors 	:    662120 bits
+B		 pred. errors 	:    627256 bits
+total		 pred. errors 	:   2539032 bits (98.11 %)
+coding rate	   3.69152 bits/pel
+--------------------area = 4--------------------
+pixel	:	    703900 pixel (6.54 %)
+class info.	:	     42296 bits (1.65 %)
+predictor	:	      4192 bits (0.16 %)
+thresholds	:	      2416 bits (0.09 %)
+G1		 pred. errors 	:    612520 bits
+G2		 pred. errors 	:    620440 bits
+R		 pred. errors 	:    655832 bits
+B		 pred. errors 	:    621992 bits
+total		 pred. errors 	:   2510784 bits (98.09 %)
+coding rate	   3.63644 bits/pel
+--------------------area = 5--------------------
+pixel	:	    700401 pixel (6.51 %)
+class info.	:	     37744 bits (1.45 %)
+predictor	:	      4320 bits (0.17 %)
+thresholds	:	      2352 bits (0.09 %)
+G1		 pred. errors 	:    623328 bits
+G2		 pred. errors 	:    625576 bits
+R		 pred. errors 	:    675576 bits
+B		 pred. errors 	:    633408 bits
+total		 pred. errors 	:   2557888 bits (98.29 %)
+coding rate	   3.71545 bits/pel
+--------------------area = 6--------------------
+pixel	:	    701075 pixel (6.52 %)
+class info.	:	     38544 bits (1.49 %)
+predictor	:	      4248 bits (0.16 %)
+thresholds	:	      2448 bits (0.09 %)
+G1		 pred. errors 	:    629032 bits
+G2		 pred. errors 	:    626952 bits
+R		 pred. errors 	:    666384 bits
+B		 pred. errors 	:    624600 bits
+total		 pred. errors 	:   2546968 bits (98.25 %)
+coding rate	   3.69748 bits/pel
+
+num_class[0]=10
+num_class[1]=10
+num_class[2]=10
+num_class[3]=10
+num_class[4]=10
+num_class[5]=10
+num_class[6]=10
+******* differences between entropy and rate *******
+(gr)  [shape]	entropy		|	rate		|fitness	|pel
+------------------------------------------------------------------------------
+( 0)  [3.2]	      9.23	|	     29.01	|   -1.144	|        44
+( 1)  [0.2]	     18.21	|	     14.34	|   0.787	|        25
+( 2)  [2.6]	     18.02	|	     39.30	|   -0.181	|        31
+( 3)  [3.2]	    110.72	|	    121.39	|   0.904	|        91
+( 4)  [3.2]	    218.66	|	    209.10	|   0.956	|       124
+( 5)  [2.4]	   3747.97	|	   3676.52	|   0.981	|      1638
+( 6)  [2.0]	 230709.15	|	 230785.18	|   1.000	|     83142
+( 7)  [1.8]	13057749.83	|	12962469.72	|   0.993	|   4008094
+( 8)  [1.6]	13233228.13	|	13048296.67	|   0.986	|   3549418
+( 9)  [1.6]	4380334.06	|	4331930.32	|   0.989	|   1043104
+(10)  [1.6]	3333030.85	|	3334190.13	|   1.000	|    713982
+(11)  [1.6]	3784119.57	|	3779978.89	|   0.999	|    737232
+(12)  [1.6]	2674165.47	|	2647342.36	|   0.990	|    477797
+(13)  [1.2]	 312913.21	|	 311595.23	|   0.996	|     52283
+(14)  [1.0]	 139575.51	|	 139627.85	|   1.000	|     22003
+(15)  [1.0]	 467048.38	|	 477037.91	|   0.979	|     69392
+------------------------------------------------------------------------------
+all         	41616996.98	|	41267343.92	|   0.992	|  10758400
+1
+******** Start decoding ********
+vgen,vgenc = 7,1
+geny,genx = 383,332
+geny,genx = 128,111
+geny,genx = 128,111
+geny,genx = 128,111
+geny,genx = 128,111
+geny,genx = 128,111
+geny,genx = 128,111
+max_prd_order[0] = 26
+max_prd_order[1] = 26
+max_prd_order[2] = 26
+max_prd_order[3] = 26
+max_prd_order[4] = 26
+max_prd_order[5] = 26
+max_prd_order[6] = 26
+init_ref_offset5_2->roff_up->roff_left2->roff_right2->ok
+***decode_class_vseg***
+dec->num_class[0] = 10
+***decode_predictor***
+***decode_threshold***
+***decode_image***
+nzcoef_ave = 22.650000
+***write_pgm***
+write pgm success.
+cpu time: 5.61 sec.
+OK!

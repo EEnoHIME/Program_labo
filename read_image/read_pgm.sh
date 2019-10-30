@@ -1,0 +1,1 @@
+g++ read_pgm.cpp -lm -o READ_PGM

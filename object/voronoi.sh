@@ -1,0 +1,1 @@
+g++ picojson.cpp mla.cpp mla_ary.cpp voronoi.cpp read_pgm.cpp main.cpp -lm -o VORONOI -mcmodel=large
