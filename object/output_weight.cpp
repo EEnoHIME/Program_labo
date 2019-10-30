@@ -16,9 +16,9 @@ using namespace std;
 //int data[5][5];
 
 double compensation_func(int value,int d,double a,double b){
-    double div = (d*d*a*a+1)*(d*d*a*a+1);
-    double noise = (1-div)*b/div;
-    double compensation = value/div - noise;
+    double bias = (d*d*a*a+1)*(d*d*a*a+1);
+    double noise = bias*b;
+    double compensation = value*bias - noise;
     return compensation/value;
 }
 

@@ -16,23 +16,27 @@ using namespace std;
 //int data[5][5];
 
 double compensation_func(int value,int d,double a,double b){
-    double div = (d*d*a*a+1)*(d*d*a*a+1);
-    double noise = (1-div)*b/div;
-    double compensation = value/div - noise;
+    double bias = (d*d*a*a+1)*(d*d*a*a+1);
+    double noise = bias*b;
+    double compensation = value*bias - noise;
     return compensation/value;
 }
 
 int output_csv(int w,int h,char *input_pgmname){
-	string RAW, G1, G2, B, R;
+	string RAW = input_pgmname;
+	string G1 = input_pgmname;
+	string G2 = input_pgmname;
+	string B = input_pgmname;
+	string R = input_pgmname;
 
-	RAW = G1 = G2 = B = R = *input_pgmname;
+	//RAW = G1 = G2 = B = R = input_pgmname;
 	int l = RAW.size();
 
 	RAW.erase(l-5);
 	G1.erase(l-5);
 	G2.erase(l-5);
 	B.erase(l-5);
-	R.erase(l - 5);
+	R.erase(l-5);
 	RAW += ".csv";
 	G1 += "_g1.csv";
 	G2 += "_g1.csv";
@@ -51,11 +55,18 @@ int output_csv(int w,int h,char *input_pgmname){
 		num++;
 	}*/
 
-	ofstream ofs(RAW);
-	ofstream ofs_G1(G1);
-	ofstream ofs_R(R);
-	ofstream ofs_B(B);
-	ofstream ofs_G2(G2);
+	ofstream ofs;
+	ofstream ofs_G1;
+	ofstream ofs_R;
+	ofstream ofs_B;
+	ofstream ofs_G2;
+
+	ofs.open(RAW.c_str());
+	ofs_G1.open(G1.c_str());
+	ofs_G2.open(G2.c_str());
+	ofs_R.open(R.c_str());
+	ofs_B.open(B.c_str());
+
 
     for (int j=0;j<h;j++){
 		for(int i=1;i<w;i++){
