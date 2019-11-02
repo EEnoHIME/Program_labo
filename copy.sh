@@ -1,0 +1,1 @@
+cp -r equation/* main/* metadata/* mla_rot/* output_weight/* read_image/* voronoi/* object
